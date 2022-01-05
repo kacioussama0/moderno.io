@@ -267,6 +267,7 @@ div.stories div.container div.card-project div.image {
     width: 50%;
     height: 400px;
     background-color: #808080;
+    
 
 }
 
@@ -315,6 +316,7 @@ div.stories div.container div.images {
 div.stories div.container div.images div {
     height: 300px;
     background-color: var(--main-color);
+    cursor: pointer;
 }
 
 div.stories div.container div.images div img {
@@ -328,12 +330,17 @@ div.stories div.container div.images div img {
     div.stories div.container div.card-project {
         flex-direction: column ;
     }
-    div.stories div.container div.card-project  div{
+    div.stories div.container div.card-project  div {
         width: 100% !important;
     }
     div.stories div.container div.card-project  div.info {
         align-items: flex-start;
+        padding: 30px;
     }
+    div.stories div.container div.card-project  div.info p {
+        font-size: 14px;
+    }
+    
 }
 
 /* End Stories */
@@ -471,6 +478,7 @@ div.contact-us div.container  div.contacts h5 i {
 
 div.contact-us div.container  div.contacts p {
     color: #808080;
+    margin: 5px 0;
     font-family: 'Lora', serif;
 
 }
@@ -529,7 +537,7 @@ footer div.container span.social-media a{
     }
 
     footer div.container p {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 }
 

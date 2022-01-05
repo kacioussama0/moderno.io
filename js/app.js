@@ -20,3 +20,14 @@ hide.onclick = () => {
     nav.style.display = 'none';
 }
 
+let mainImage = document.querySelector('div.image img');
+let images = document.querySelector("div.stories div.container div.images ");
+
+
+images.addEventListener('click',(e)=> {
+    if(e.target.matches('img'))
+    mainImage.src= e.target.src;
+})
+
+
+
