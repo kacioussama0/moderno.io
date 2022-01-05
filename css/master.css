@@ -521,7 +521,7 @@ footer div.container span.social-media a{
     margin: 0 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     footer div.container {
         flex-direction: column;
         justify-content: space-between;
