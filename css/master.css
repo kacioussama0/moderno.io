@@ -475,7 +475,7 @@ div.contact-us div.container  div.contacts p {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     div.contact-us div.container form {
         display: flex;
         flex-direction: column;
@@ -521,7 +521,7 @@ footer div.container span.social-media a{
     margin: 0 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     footer div.container {
         flex-direction: column;
         justify-content: space-between;
